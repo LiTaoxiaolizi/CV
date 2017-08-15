@@ -1,0 +1,84 @@
+html {font-family: "微软雅黑";color: #333;}
+a {color: #333;text-decoration: none;}
+li {list-style: none;}
+* {margin: 0;padding: 0;}
+img {border: 0;display: block;}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	margin: ;
+}
+
+.clearfix {
+	zoom: 1;
+	/* 为了兼容IE浏览器 */
+}
+
+
+.header{background: #cdf0f9;width: 100%;padding-bottom: 2rem;min-width: 70rem;margin: 0 auto;}
+.header h1{text-align: center;font-size: 2rem;padding-top: 10rem;}
+.img_box{width: 8rem;height: 8rem;margin: 1rem auto;}
+.img_box img{width: 100%;height: 100%;border-radius: 1rem;}
+/*.img_box img:hover{scale}*/
+.header p{text-align: center;line-height: 2rem;font-weight: 700;}
+.main{min-width: 70rem;margin: 0 auto;}
+.nav{height: 3rem;background: palegreen;min-width: 70rem;}
+.nav>ul{margin: 0 auto;padding-left: 15rem;clear: both;}
+.nav>ul>li{width: 10%;float: left;line-height: 3rem;text-align: center;cursor: pointer;}
+.nav>ul>li:last-child img{width: 10rem;height: 10rem;position: absolute;top:3rem; display: none; }
+.nav>ul>li:last-child{position: relative;}
+.nav>ul>li:last-child:hover .img{display: block;}
+.nav>ul>li:hover{background: palevioletred;font-size: 1.2rem;}
+
+
+.list{padding-left: 10rem;padding-top: 1rem;background:initial}
+.list h1{cursor: pointer;   font-size: 1.5rem;width: 10rem;height: 2.5rem;border: 0.1rem solid #999;line-height: 2.5rem;text-align: center;box-shadow: 0.2rem 0.2rem  #5eafdc;
+-webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    -moz-transition: transform .5s,-moz-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s,-moz-transform .5s;}
+.list h1:hover{-webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    transform: translateX(1rem);}    
+    
+    
+.name{padding-top: 1rem;overflow: hidden;padding-bottom: 1rem;}
+.name>ul{float: left;margin-left: 5rem;margin-right: 10rem;}
+.name>ul>li{line-height: 2rem;}
+
+.join_intension>ul{margin-left: 5rem;padding-top: 1rem;}
+.join_intension>ul>li{line-height: 2rem;}
+.skill{padding-top: 1rem;font-weight: 600;padding-bottom: 1rem;}
+.skill>ul{margin-left: 5rem;padding-top: 1rem;}
+.skill>ul>li{line-height: 2rem;list-style:;}
+
+.project_erperience>ul{margin-left: 5rem;padding-top: 1rem;}
+.project_erperience>ul>li{line-height: 2rem;}
+.project_erperience>ul>li:first-child{font-weight: bold;}
+
+.educational{padding-top: 1rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
