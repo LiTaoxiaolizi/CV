@@ -21,7 +21,7 @@ img {border: 0;display: block;}
 
 .header{background: #cdf0f9;width: 100%;padding-bottom: 2rem;min-width: 70rem;margin: 0 auto;}
 .header h1{text-align: center;font-size: 2rem;padding-top: 10rem;}
-.img_box{width: 8rem;height: 8rem;margin: 1rem auto;}
+.img_box{width: 8rem;height: 8rem;margin: 1rem auto;cursor: pointer;}
 .img_box img{width: 100%;height: 100%;border-radius: 1rem;}
 /*.img_box img:hover{scale}*/
 .header p{text-align: center;line-height: 2rem;font-weight: 700;}
@@ -29,13 +29,13 @@ img {border: 0;display: block;}
 .nav{height: 3rem;background: palegreen;min-width: 70rem;}
 .nav>ul{margin: 0 auto;padding-left: 15rem;clear: both;}
 .nav>ul>li{width: 10%;float: left;line-height: 3rem;text-align: center;cursor: pointer;}
-.nav>ul>li:last-child img{width: 10rem;height: 10rem;position: absolute;top:3rem; display: none; }
-.nav>ul>li:last-child{position: relative;}
-.nav>ul>li:last-child:hover .img{display: block;}
+.nav>ul>li:nth-child(7) img{width: 10rem;height: 10rem;position: absolute;top:3rem; display: none; }
+.nav>ul>li:nth-child(7){position: relative;}
+.nav>ul>li:nth-child(7):hover .img{display: block;}
 .nav>ul>li:hover{background: palevioletred;font-size: 1.2rem;}
 
 
-.list{padding-left: 10rem;padding-top: 1rem;background:initial}
+.list{padding-left: 10rem;padding-top: 1rem;background:aliceblue;}
 .list h1{cursor: pointer;   font-size: 1.5rem;width: 10rem;height: 2.5rem;border: 0.1rem solid #999;line-height: 2.5rem;text-align: center;box-shadow: 0.2rem 0.2rem  #5eafdc;
 -webkit-transition: -webkit-transform .5s;
     transition: -webkit-transform .5s;
@@ -58,11 +58,31 @@ img {border: 0;display: block;}
 .skill>ul{margin-left: 5rem;padding-top: 1rem;}
 .skill>ul>li{line-height: 2rem;list-style:;}
 
+.project_erperience{word-wrap: break-word;}
 .project_erperience>ul{margin-left: 5rem;padding-top: 1rem;}
 .project_erperience>ul>li{line-height: 2rem;}
 .project_erperience>ul>li:first-child{font-weight: bold;}
 
 .educational{padding-top: 1rem;}
+.educational>ul{margin-left: 5rem;padding-top: 1rem;width: 30rem;}
+.educational>ul>li{line-height: 2rem;overflow: hidden;}
+.educational>ul>li>span{float: right;}
+.honor{padding-top: 1rem;}
+.honor>ul{margin-left: 5rem;padding-top: 1rem;width: 30rem;}
+.honor>ul>li{line-height: 2rem;overflow: hidden;}
+.honor>ul>li>span{float: right;}
+
+.contact_me{padding-top: 1rem;}
+.contact_me>ul{margin-left: 5rem;padding-top: 1rem;width: 30rem;}
+.contact_me>ul>li{line-height: 2rem;}
+
+.more_aboutme{padding-top: 1rem;padding-bottom: 10rem;}
+.more_aboutme>ul{margin-left: 5rem;padding-top: 1rem;}
+.more_aboutme>ul>li{line-height: 2rem;}
+.more_aboutme>ul>li:first-child{font-weight: 700;}
+
+.return_top{cursor:pointer;  width: 3rem;height: 3rem;border: 4px solid #47c52d;position: fixed;bottom:0;right: 0;border-radius: 10px;background: wheat;display: none;z-index: 999;}
+.return_top .font1{text-align: center;display: block;line-height: 3rem;}
 
 
 
