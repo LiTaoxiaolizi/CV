@@ -43,27 +43,44 @@ $(function(){
 		      	return false;
 		  })
               $(navlist[3]).click(function(){
-		  	    $('body,html').animate({'scrollTop':'1150px'},500)
+		  	    $('body,html').animate({'scrollTop':'1190px'},500)
 		      	return false;
 		  })
                $(navlist[4]).click(function(){
-		  	    $('body,html').animate({'scrollTop':'1950px'},500)
+		  	    $('body,html').animate({'scrollTop':'1350px'},500)
 		      	return false;
 		  })
                 $(navlist[5]).click(function(){
-		  	    $('body,html').animate({'scrollTop':'2100px'},500)
+		  	    $('body,html').animate({'scrollTop':'2150px'},500)
 		      	return false;
 		  })
                  $(navlist[6]).click(function(){
-		  	    $('body,html').animate({'scrollTop':'2300px'},500)
+		  	    $('body,html').animate({'scrollTop':'2270px'},500)
 		      	return false;
 		  })
                  $(navlist[7]).click(function(){
-		  	    $('body,html').animate({'scrollTop':'2500px'},500)
+		  	    $('body,html').animate({'scrollTop':'2450px'},500)
 		      	return false;
 		  })
-		  
-		  console.log($(".more_aboutme>ul"))  
-		  
+                  $(navlist[8]).click(function(){
+		  	    $('body,html').animate({'scrollTop':'2650px'},500)
+		      	return false;
+		  })
+		     //了解更多做选项卡效果
+		     var ullist=$(".more_aboutme>ul");  
+		     var toplist=$("#aboutme>span");
+		      console.log(ullist)
+		      console.log(toplist.length);
+		     toplist.click(function(){
+		      	toplist.attr('class',' ');
+		      	toplist.css('background','none')
+
+		      	toplist.attr('class','active');
+		      	
+		      	toplist.eq($(this).index()).css('background','#999');
+		      	ullist.css('display','none');
+		      	ullist.eq($(this).index()).css('display','block');		
+		      })
+		    
 	})
 
